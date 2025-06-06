@@ -1,11 +1,107 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Mi Primera P ́agina</title>
+  <meta charset="UTF-8">
+  <title>Mi Primera Página</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #b57edc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 200px;
+      border-radius: 50%;
+    }
+
+    section {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    .botones {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .botones button {
+      padding: 10px 20px;
+      margin: 5px;
+      background-color: #b57edc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .botones button:hover {
+      background-color: #a66cc6;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-<h1>¡Hola, mundo!</h1>
-<p>Esta es mi primera p ́agina web publicada con GitHub Pages.</p>
+  <header id="top">
+    <h1>¡Hola, mundo!</h1>
+    <p>Bienvenido a mi primera página web publicada con GitHub Pages</p>
+  </header>
+
+  <img src="https://via.placeholder.com/200" alt="Foto de María del Cisne Montaño">
+
+  <section>
+    <h2>Sobre mí</h2>
+    <p>Mi nombre es <strong>María del Cisne Montaño</strong>. Tengo <strong>20 años</strong> y soy estudiante de la <strong>Universidad Internacional del Ecuador</strong>. Actualmente curso la materia de <strong>Big Data</strong>. Me interesa el análisis de datos, la tecnología y cómo la información puede transformar el mundo.</p>
+
+    <h3>Contacto</h3>
+    <ul>
+      <li>Email: maria.montano@example.com</li>
+      <li>GitHub: <a href="https://github.com/tu-usuario" target="_blank">github.com/tu-usuario</a></li>
+    </ul>
+
+    <div class="botones">
+      <a href="https://github.com/tu-usuario" target="_blank">
+        <button>Ver GitHub</button>
+      </a>
+
+      <a href="mailto:maria.montano@example.com">
+        <button>Enviar correo</button>
+      </a>
+
+      <a href="cv-maria-montano.pdf" download>
+        <button>Descargar CV</button>
+      </a>
+
+      <a href="#top">
+        <button>Volver arriba</button>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 María del Cisne Montaño. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
